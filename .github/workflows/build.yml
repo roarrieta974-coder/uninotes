@@ -16,7 +16,7 @@ jobs:
       - name: Preparar proyecto
         run: |
           mkdir project
-          unzip -q UniNotesPrototype.zip -d project
+          unzip -q UniNotesPrototype_fixed.zip -d project
 
       - name: Configurar Java
         uses: actions/setup-java@v4
